@@ -1,0 +1,6 @@
+ TMDB
+ APIkey = 2d95e9e0
+ const api_key = "2d95e9e0";
+
+
+ const URL = `http://www.omdbapi.com/?i=tt3896198&apikey=${api_key}&t=${query}`
