@@ -6,7 +6,9 @@ html{
 
 *{
     box-sizing: border-box;
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: monospace; */
+
 }
 
 body{

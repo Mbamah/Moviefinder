@@ -27,6 +27,10 @@ function SearchMovies() {
       console.log(data.results);
       setMovies(data.results)
       setInquery(' ')
+
+      // if(data.results === ''){
+      //   console.log('empty');
+      // }
       
     } catch (error) {
       console.error(error);
@@ -48,7 +52,7 @@ function SearchMovies() {
           // onChange={(e)=> setInquery(e.target.value)}
           onChange={getValue}
           placeholder="life in a year"
-          placeholder="e.g. Captain Marvel"
+          // placeholder="e.g. Captain Marvel"
         />
         <button type="submit" className="button">
           Search
@@ -56,7 +60,8 @@ function SearchMovies() {
       </form>
 
       <div className="card--list">
-        <h2 className="count">{movies.length} Results</h2>
+        <h2 className="count">{movies.length} Found</h2>
+        {/* <h2 className="count">{movies.length} no match</h2> */}
         {movies
           .filter((movie) => movie.poster_path)
           .map((movie) => (

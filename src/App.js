@@ -9,7 +9,7 @@ class App extends Component {
     render() { 
         return ( 
             <div className='container'>
-                <h1 className='title'>MOVIE THIEF </h1>
+                <h1 className='title'>MOVIE Finder </h1>
                 <SearchMovies/>
             </div>
          );

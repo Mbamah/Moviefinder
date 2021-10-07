@@ -10,7 +10,8 @@
     font-weight: 700;
     text-align: center;
     color:white;
-    font-family: monospace;
+        font-family: 'Poppins', sans-serif;
+
 }
 input{
     font-size: 1rem;
@@ -36,7 +37,7 @@ h2.count::after{
     content: '';
     top: 18px;
     left: 47%;
-    width: 100px;
+    width: 70px;
     height: 8px;
     background-color:#1ed14b;
     z-index: -1;
